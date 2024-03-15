@@ -1,0 +1,29 @@
+/* Settings */
+.wrap.json-importer-settings {
+    max-width: 576px;
+}
+
+/* Frontend */
+.json-importer-css {
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.rhs p {
+    width: 100%;
+}
+.json-importer-css .btn-primary {
+    border-color: red;
+    background-color: red; 
+    color: white;
+    min-width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.json-importer-css .btn-primary:hover {
+    background-color:white;
+    color:black;
+}
+
+.json-importer-css .btn-primary:focus {
+box-shadow: none;}
